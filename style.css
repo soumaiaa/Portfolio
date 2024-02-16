@@ -7,8 +7,8 @@
   padding: 0;
 }
 .body {
-   background-color: #0d0d0e;
-    font-family: 'Brush Script MT', cursive;
+    background-color: #0d0d0e;
+    font: italic 1.2rem "Fira Sans", serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -33,13 +33,13 @@
 }
 
 svg text {
-   
-    letter-spacing: 3px;
     stroke: #ffa5d8;
-     font-size: 40px;
+    /* font-size: 150px; */
     font-weight: 700; 
     stroke-width: 3;
-    font-family: 'Brush Script MT', cursive;
+    z-index: 10;
+    font: italic 3rem "Fira Sans", serif;
+    /* font: small-caps bold 40px/1 sans-serif; */
     animation: textAnimate 5s infinite alternate;
     
   }
@@ -92,12 +92,18 @@ svg text {
   }
   #hello {
     text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+    font: italic 1.3rem "Fira Sans", serif;
+    font-size:medium;
+    color: white;
   }
   .animation > div > div {
     padding: 0.25rem 0.75rem;
     height:3rem;
     margin-bottom: 3rem;
     display:inline-block;
+    font: italic 1.3rem "Fira Sans", serif;
+  font-size:medium;
+  color: white;
   }
   
   .animation div:first-child {
@@ -129,7 +135,7 @@ svg text {
   background-color: #1c8bb4ab;
 }
 #dev {
-    font-family: 'Brush Script MT', cursive;
+  font: italic 1.2rem "Fira Sans", serif;
     font-size: 15vmin;
     letter-spacing: .2rem;
     transform-style: preserve-3d;
@@ -310,7 +316,7 @@ svg text {
     cursor: pointer;
     outline: none;
     color: #fff;
-
+    font: italic 1.3rem "Fira Sans", serif;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #161212;
@@ -367,7 +373,7 @@ svg text {
 }
 
 .tab-contents {
-    font-family: cursive;
+  font: italic 1.3rem "Fira Sans", serif;
     font-size: larger;
 }
 
@@ -413,7 +419,7 @@ svg text {
 }
 
 .card #contactimage {
-    font-family: 'Brush Script MT', cursive;
+    font: italic 1.5rem "Fira Sans", serif;
     color: #9ecefa;
     margin: 20px;
     opacity: 0;
@@ -463,22 +469,10 @@ svg text {
 .cv {
     text-decoration: none;
     color: black;
+    font: italic 1.2rem "Fira Sans", serif;
    
 }
 
-
-/* .btn {
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid gold;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    background: gold;
-} */
 :root {
     --glow-hue: 222deg;
     --shadow-hue: 180deg;
@@ -538,7 +532,6 @@ button {
 
     color: var(--bg);
     font-weight: 600;
-    /*     background-image: linear-gradient(90deg, #fcecfe, #fbf6e7, #e6fcf5); */
     background-image: linear-gradient(135deg, rgb(191, 100, 155)0%, rgb(119, 172, 222)100%);
     padding: .8em 1.4em;
     position: relative;
@@ -617,15 +610,6 @@ button.active .shimmer::after {
 
 }
 
-/* button .text {
-    color: transparent; 
-    background-clip: text;
-    background-color: var(--bg);
-    background-image: linear-gradient(120deg, transparent, hsla(var(--glow-hue),100%,80%,0.66) 40%, hsla(var(--glow-hue),100%,90%,.9) 50%, transparent 52%);
-    background-repeat: no-repeat;
-    background-size: 300% 300%;
-    background-position: center 200%;
-} */
 
 button:hover .text,
 button.active .text {
@@ -868,14 +852,6 @@ defs{
 .pl__line5 {
 	animation-name: line5;
 }
-
-/* Dark theme */
-/* @media (prefers-color-scheme: dark) {
-	:root {
-		--bg: hsl(var(--hue),90%,10%);
-		--fg: hsl(var(--hue),90%,90%);
-	}
-} */
 
 /* Animations */
 @keyframes line1 {
