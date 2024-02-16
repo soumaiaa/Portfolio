@@ -54,13 +54,14 @@
             </div>
             <!-- <div class="third"><div>Junior</div></div> -->
           </section>
-
+          <img class="dark rounded-circle" onclick="myFunction()" src="./image/dark.svg" alt="">
         </div>
 
       </div>
     </nav>
   </header>
   <!-- /*=============apropos=======*/ -->
+  
   <main class="container-lg ">
       <div class="patterns">
         <svg width="100%" height="100%">
@@ -428,13 +429,7 @@
 
 
         </div>
-        <div class="to">
-          <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-              class="bi bi-arrow-up-circle  " viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
-            </svg></a>
-        </div>
+        
       </div>
     </div>
 
@@ -718,8 +713,8 @@
             </svg>
           </div>
         
-
         <div class="profile-bottom">
+          <div class="infocontact" data-tilt>
           <div class="profile-infos text-center">
             <div class="main-infos">
               <h3 class="m-3 p-3 name">Soumaia ALOUI</h3>
@@ -749,6 +744,7 @@
               </a>
             </button>
           </div>
+        </div>
           <div class="profile-stats barcontact row">
             <div class="col-lg-4">
               <a class="ab adress d-flex justify-content-center align-text  m-3" href="mailto:soumaiaalouii@gmail.com">
@@ -789,7 +785,13 @@
             </div>
           </div>
         </div>
-
+        <div class="to">
+          <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-arrow-up-circle  " viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+            </svg></a>
+        </div>
       </div>
     </section>
 
@@ -963,9 +965,14 @@
       }
 
       setupCoverflow();
-
+      
+      function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   }
 
     </script>
+    <script src="./image/vanilla-tilt.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
       </script>

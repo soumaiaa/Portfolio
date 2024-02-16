@@ -45,10 +45,7 @@
                         </li>
 
                     </ul>
-                    <!-- <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
+                    
                     <p id="hello">Hello 👋 I'm</p>
                     <section class="animation">
                         <div class="first">
@@ -57,14 +54,15 @@
                         <div class="second">
                             <div>Junior Web Developer</div>
                         </div>
-                        <!-- <div class="third"><div>Junior</div></div> -->
                     </section>
+                    <img class="dark rounded-circle" onclick="myFunction()" src="../image/dark.svg" alt="">
                 </div>
             </div>
         </nav>
 
 
     </header>
+   
     <main class="container-lg">
         
             <div class="patterns">
@@ -425,6 +423,11 @@
 
         next()
 
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   
+   }
 
 
 

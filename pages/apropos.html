@@ -49,14 +49,14 @@
           <section class="animation">
             <div class="first"><div>Soumaia ALOUI</div></div>
             <div class="second"><div>Junior Web Developer</div></div>
-            <!-- <div class="third"><div>Junior</div></div> -->
           </section>
+          <img class="dark rounded-circle" onclick="myFunction()" src="../image/dark.svg" alt="">
+
         </div>
 
       </div>
     </nav>
   </header>
-
   <main class="container-md ">
    
       <!-- <h1 data-text="A PROPOS:" class="mt-2 nom typewriter"> A PROPOS:</h1> -->
@@ -109,7 +109,11 @@
     </h1>
   </main>
   <script>
- 
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   }
+
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
