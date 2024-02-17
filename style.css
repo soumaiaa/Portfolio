@@ -2013,10 +2013,14 @@ defs{
   
   color: #cac5c8;
 }
+.svgcont{
+  height: 80px;
+  width: 80px; 
+}
 .ab {
   text-decoration: none;
   
-  color: #cac5c8;
+  color: #828081;
 }
 .barcontact{
   
@@ -2038,6 +2042,10 @@ defs{
   background: linear-gradient(135deg, rgba(191, 100, 155, 0.377)0%, rgba(119, 172, 222, 0.476)100%);
   border-radius: 20px;
   padding-bottom: 20px;
+  /* box-shadow: 0 0 30px rgba(223, 83, 211, 0.7); */
   /* transform-style: preserve-3d;
   transform: perspective(1000px); */
+}
+.liens{
+  height: 200px;
 }
