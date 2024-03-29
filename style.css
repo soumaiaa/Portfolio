@@ -7,7 +7,10 @@
   padding: 0;
 }
 .body {
-    background-color: #080808;
+ 
+    /* background-color: #080808; */
+    background-image:url(imageprojet/backbarck.jpg);
+  
     font: italic 1.2rem "Fira Sans", serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,19 +21,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     
 }
 .dark-mode {
-  background-color: rgba(255, 255, 255, 0.678);
+  background-image:url(imageprojet/backroose.jpg);
   color: rgb(5, 5, 5);
+  font: italic 1.2rem "Fira Sans", serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
 
 }
+/* .arrier{
+  background-color: #a3709450;
+  width: 100%;
+  height: 100%;
+} */
 .dark:hover{
   transform: rotate(90deg);
  
 }
 .navbar{
-  background: linear-gradient(135deg, rgb(191, 100, 155)0%, rgb(119, 172, 222)100%) ;
+  /* background: linear-gradient(135deg, rgb(191, 100, 155)0%, rgb(119, 172, 222)100%) ; */
+   background: linear-gradient(135deg, rgba(237, 92, 179, 0.305)0%, rgba(119, 172, 222, 0.527)100%) ; 
 }
 
 .nom {
@@ -84,6 +100,11 @@ svg text {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.toto:hover{
+transform: scale(1.5);
 }
 .dark{
   width: 50px;
@@ -634,20 +655,14 @@ button.active .text {
 /*======footer====*/
 
 .footer {
-  background: linear-gradient(135deg, rgb(191, 100, 155)0%, rgb(119, 172, 222)100%);
+  background: linear-gradient(135deg, rgba(237, 92, 179, 0.305)0%, rgba(119, 172, 222, 0.527)100%) ; 
   color: black;
   bottom: 0px;
   top: 100%;
 
 }
 
-.to {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background: linear-gradient(135deg, rgb(191, 100, 155)0%, rgb(119, 172, 222)100%);
-   border-radius: 100%;
-}
+
 
   /*=====projet=====*/
   .projetcarte {
@@ -684,17 +699,17 @@ button.active .text {
   }
   
   .back1 {
-    background-image: url(./imageprojet/pokemon.gif);
+    background-image: url(./imageprojet/music.gif);
     background-position: center;
     background-size: cover;
    }
   .back2{
-    background-image: url(./imageprojet/yo.png);
+    background-image: url(./imageprojet/yoo.gif);
    background-size: cover; 
    background-position: center;
   }
   .back3{
-    background-image: url(./imageprojet/monta.gif);
+    background-image: url(./imageprojet/montagne.gif);
     background-size: cover;
     background-position: center;
   }
@@ -704,12 +719,12 @@ button.active .text {
     background-position: center;
   }
   .back5{
-    background-image: url(./imageprojet/oneM.png);
+    background-image: url(./imageprojet/onemillion.gif);
     background-size: cover;
     background-position: center;
   }
   .back6{
-    background-image: url(./imageprojet/yellow.jpg);
+    background-image: url(./imageprojet/jaune\ jaune.gif);
     background-size: cover;
     background-position: center;
   }
@@ -719,7 +734,27 @@ button.active .text {
     background-position: center;
    }
    .back8{
-    background-image: url(./imageprojet/zoo.jpg);
+    background-image: url(./imageprojet/zoo.gif);
+    background-size: cover;
+    background-position: center;
+   }
+   .back9{
+    background-image: url(./imageprojet/chillgram.gif);
+    background-size: cover;
+    background-position: center;
+   }
+   .back10{
+    background-image: url(./imageprojet/drumppadd.gif);
+    background-size: cover;
+    background-position: center;
+   }
+   .back11{
+    background-image: url(./imageprojet/luxury.png);
+    background-size: cover;
+    background-position: center;
+   }
+   .back12{
+    background-image: url(./imageprojet/battles.gif);
     background-size: cover;
     background-position: center;
    }
