@@ -9,15 +9,16 @@
 .body {
  
     /* background-color: #080808; */
-    background-image:url(imageprojet/backbarck.jpg);
-  
+   
+    background-image:url(imageprojet/backroose.jpg);
+  color: rgb(5, 5, 5);
     font: italic 1.2rem "Fira Sans", serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
-    color: #ffffff;
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,8 +26,8 @@
     
 }
 .dark-mode {
-  background-image:url(imageprojet/backroose.jpg);
-  color: rgb(5, 5, 5);
+  background-image:url(imageprojet/backbarck.jpg);
+  color: #ffffff;
   font: italic 1.2rem "Fira Sans", serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
